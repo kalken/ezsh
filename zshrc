@@ -3,7 +3,7 @@ alias ll='ls -la'
 
 # better colors in terminal
 LS_COLORS="di=01;34:\
-ln=01;36:\
+ln=01;34:\
 pi=40;33:\
 so=01;35:\
 do=01;35:\
