@@ -136,8 +136,8 @@ zstyle ':completion:*' verbose yes
 # shell message formatting
 zstyle ':completion:*:descriptions' format "%{$fg[yellow]%}%d%{$reset_color%}"
 zstyle ':completion:*:messages' format "%{$fg[yellow]%}%d%{$reset_color%}"
-zstyle ':completion:*:warnings' format "%{$fg[yellow]%}no matches for: %{$fg[red]%}%d%{$reset_color%}"
-zstyle ':completion:*:corrections' format "%{$fg[yellow]%}%d (errors: %e)%{$reset_color%}"
+zstyle ':completion:*:warnings' format "%{$fg[red]%}no match in %{$fg[yellow]%}%d%{$reset_color%}"
+zstyle ':completion:*:corrections' format "%{$fg[red]%}%d (errors: %e)%{$reset_color%}"
 
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
