@@ -1,7 +1,7 @@
-# aliases
+# global aliases
 alias ll='ls -la'
 
-#look for custom commands in another file
+#look for local aliases in another file
 if [ -f ~/.command_aliases ];then
 	source ~/.command_aliases
 fi
