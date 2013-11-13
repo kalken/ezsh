@@ -2,7 +2,7 @@
 alias ll='ls -la'
 
 # better colors in terminal
-LS_COLORS="di=01;34:\
+LS_COLORS="di=01;32:\
 ln=01;34:\
 pi=40;33:\
 so=01;35:\
@@ -18,7 +18,7 @@ ow=34;42:\
 st=37;44:\
 ex=01;32";
 
-LSCOLORS="ExGxFxDxCxDxDxhbhdacEc";
+LSCOLORS="CxGxFxDxCxDxDxhbhdacEc";
 
 # Do we need Linux or BSD Style?
 if ls --color -d . &>/dev/null 2>&1
@@ -91,7 +91,7 @@ bindkey -e
 #left prompt layout and colors
 PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}: "
 #right prompt layout and colors
-RPROMPT="[%{$fg_no_bold[yellow]%}%~%{$reset_color%}]"
+RPROMPT="[%{$fg_no_bold[green]%}%~%{$reset_color%}]"
 
 # use completion cache
 zstyle ':completion::complete:*' use-cache on
