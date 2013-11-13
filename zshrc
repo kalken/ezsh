@@ -1,6 +1,11 @@
 # aliases
 alias ll='ls -la'
 
+#look for custom commands in another file
+if [ -f ~/.command_aliases ];then
+	source ~/.command_aliases
+fi
+
 # better colors in terminal
 LS_COLORS="di=01;32:\
 ln=01;36:\
