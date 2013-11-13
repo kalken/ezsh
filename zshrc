@@ -18,7 +18,6 @@ ow=34;42:\
 st=37;44:\
 ex=01;32";
 
-export CLICOLOR=1
 LSCOLORS="CxGxFxDxCxDxDxhbhdacEc";
 
 # Do we need Linux or BSD Style?
@@ -26,11 +25,11 @@ if ls --color -d . &>/dev/null 2>&1
 then
 #  # Linux Style
   export LS_COLORS=$LS_COLORS
-#  alias ls='ls --color=tty'
+  alias ls='ls --color=tty'
 else
 #  # BSD Style
   export LSCOLORS=$LSCOLORS
-#  alias ls='ls -G'
+  alias ls='ls -G'
 fi
 #
 # Use same colors for autocompletion
