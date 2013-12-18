@@ -97,7 +97,7 @@ bindkey -e
 
 
 #left prompt layout and colors
-PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}:%(!.%{$fg[red]%}#.%{$fg[green]%}$) "
+PROMPT="%(!.%{$fg[red]%}.%{$fg[yellow]%})%n%{$fg[white]%}@%{$fg[green]%}%m%{$fg[white]%}:%(!.%{$fg[red]%}#.%{$fg[yellow]%}$) "
 #right prompt layout and colors
 RPROMPT="[%{$fg_no_bold[green]%}%~%{$reset_color%}]"
 
