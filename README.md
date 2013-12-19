@@ -27,8 +27,7 @@ In your homefolder do:
 ## Tips & Trix
 
 ### Using aliases
-put your aliases in ~/.command_aliases
-this file will be sourced if it exits
+Put your aliases in ~/.command_aliases. This file will be loaded if it exits.
 
 ###Using the dirstack:
 
