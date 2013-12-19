@@ -30,4 +30,4 @@ In your homefolder do:
 Put your aliases in ~/.command_aliases. This file will be loaded if it exists.
 
 ###Using the dirstack:
-cd -<tab> will show you the latest directories you have visited. This stack survives sessions.
+cd - (and then press tab) will show you the latest directories you have visited. This stack survives sessions.
