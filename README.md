@@ -27,8 +27,7 @@ In your homefolder do:
 ## Tips & Trix
 
 ### Using aliases
-Put your aliases in ~/.command_aliases. This file will be loaded if it exits.
+Put your aliases in ~/.command_aliases. This file will be loaded if it exists.
 
 ###Using the dirstack:
-
-    cd -<tab> will show you the latest directories you have visited. This stack survives sessions.
+cd -<tab> will show you the latest directories you have visited. This stack survives sessions.
