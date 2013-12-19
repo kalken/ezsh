@@ -1,4 +1,4 @@
-#zsh-config
+# zsh-config
 
 Configuration for the awesome ZSH.
 
@@ -10,25 +10,23 @@ Configuration for the awesome ZSH.
 * automatic tab completion
 * automatic tab correction
 * clean config with comments
+* different prompt layout for ordinary user and root.
 
-##Installing
-=
+## Installing
 In your homefolder do:
     cd ~
     git clone https://github.com/kalken/zsh-config .zsh-config
     ln -s .zsh-config/zshrc .zshrc
 
-##Updating
-=
+## Updating
     cd ~/.zsh-config
     git pull
 
-##Tips & Trix
+## Tips & Trix
 
-### alias
+### Using aliases
 put your aliases in ~/.command_aliases
 this file will be sourced if it exits
 
 ###Using the dirstack:
-=
     cd -<tab> will show you the latest directories you have visited. This stack survives sessions.
