@@ -14,11 +14,13 @@ Configuration for the awesome ZSH.
 
 ## Installing
 In your homefolder do:
+
     cd ~
     git clone https://github.com/kalken/zsh-config .zsh-config
     ln -s .zsh-config/zshrc .zshrc
 
 ## Updating
+
     cd ~/.zsh-config
     git pull
 
@@ -29,4 +31,5 @@ put your aliases in ~/.command_aliases
 this file will be sourced if it exits
 
 ###Using the dirstack:
+
     cd -<tab> will show you the latest directories you have visited. This stack survives sessions.
