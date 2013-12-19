@@ -11,6 +11,7 @@ Configuration for the awesome ZSH.
 * automatic tab correction
 * clean config with comments
 * different prompt layout for ordinary user and root.
+* smart history search
 
 ## Installing
 In your homefolder do:
@@ -31,3 +32,6 @@ Put your aliases in ~/.command_aliases. This file will be loaded if it exists.
 
 ###Using the dirstack:
 cd - (and then press tab) will show you the latest directories you have visited. This stack survives sessions.
+
+###Using the history search
+Just write the start of a command and press pageup/down to get previous commands entered from history.
