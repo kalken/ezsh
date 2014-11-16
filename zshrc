@@ -44,7 +44,7 @@ fi
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 #Autoloading of zsh modules
-autoload -Uz compinit; compinit
+autoload -Uz compinit; compinit -u
 autoload -U colors; colors
 autoload -U zmv
 autoload -U is-at-least
@@ -86,6 +86,9 @@ setopt hist_verify           # Don't execute lines with history expansion immedi
 setopt inc_append_history    # Add commands to history as soon as they are executed.
 # navigation options...
 setopt auto_cd               # cd to directory without using the cd command.
+
+# Allow SSH tab completion for mosh hostnames
+compdef mosh=ssh
 
 # settings for historyfile
 HISTFILE=~/.zshist
