@@ -1,4 +1,4 @@
-# zsh-config
+# ezsh
 
 Configuration for the awesome ZSH.
 
@@ -17,12 +17,12 @@ Configuration for the awesome ZSH.
 In your homefolder do:
 
     cd ~
-    git clone https://github.com/kalken/zsh-config .zsh-config
-    ln -s .zsh-config/zshrc .zshrc
+    git clone https://github.com/kalken/ezsh .ezsh
+    ln -s .ezsh/zshrc .zshrc
 
 ## Updating
 
-    cd ~/.zsh-config
+    cd ~/.ezsh
     git pull
 
 ## Tips & Trix
