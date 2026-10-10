@@ -56,7 +56,6 @@ setopt auto_name_dirs        # If a variable is the name of a directory, then na
 setopt NO_clobber            # I don't like accidently overwriting files with >.
 setopt complete_in_word      # Attempt comletion from middle of word. emerge z<tab>ion > zsh-completion
 setopt glob_complete         # Without this rm ^<tab> completes everything.
-setopt extended_glob         # Lot's of nifty stuff. See man zshexpn.
 setopt no_flow_control       # Disable ^S, ^Q from starting and stopping terminal input.
 setopt interactive_comments  # Allow comments on the command line.
 setopt NO_list_ambiguous     # echo $LI<tab> then echo $LIN<tab> without this.
