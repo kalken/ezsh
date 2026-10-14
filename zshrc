@@ -1,9 +1,6 @@
 # global aliases
 alias ll='ls -la'
 
-#export editor
-export EDITOR='vi'
-
 #look for local aliases in another file
 if [ -f ~/.command_aliases ];then
 	source ~/.command_aliases
